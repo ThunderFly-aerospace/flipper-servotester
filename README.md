@@ -1,6 +1,6 @@
 # Flipper servotester application
 
-![Servo tester application screenshot](assets/Servo_Tester_Manual_mode.png)
+![Servo tester application screenshot](servotester/assets/Servo_Tester_Manual_mode.png)
 
 This application could be used for testing devices containing standard [RC servo](https://en.wikipedia.org/wiki/Servo_(radio_control)), by generating a [PWM RC servo signal](https://en.wikipedia.org/wiki/Servo_control). 
 
