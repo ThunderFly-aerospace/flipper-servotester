@@ -1,5 +1,7 @@
 # Flipper servotester application
 
+![Servo tester application screenshot](assets/Servo_Tester_Manual_mode.png)
+
 This application could be used for testing devices containing standard [RC servo](https://en.wikipedia.org/wiki/Servo_(radio_control)), by generating a [PWM RC servo signal](https://en.wikipedia.org/wiki/Servo_control). 
 
 ## Installation instructions
@@ -20,7 +22,7 @@ Please install the application from [Flipper Zero application catalog](https://d
 | 🔼     | Up button increases pulse width by 10 us.|
 | 🔽     | The down button decreases pulse width by 10 us.   |
 | ◀️     | Left button decreases pulse width by 1 us.   |
-| ▶️     | The right button increases pulse width by 1 us..  |
+| ▶️     | The right button increases pulse width by 1 us.  |
 | ↩️     | Back button exit application.   |
 | 🔵     | Center button change mode. |
 
