@@ -16,7 +16,7 @@
 
 #define WIDTH_STEP_SMALL 1
 #define WIDTH_STEP_BIG 10
-#define WIDTH_STEP_AUTO 1
+#define WIDTH_STEP_AUTO 5
 
 uint16_t pWidth = DEFAULT_WIDTH;
 bool dir = true;
