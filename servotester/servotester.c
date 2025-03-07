@@ -117,7 +117,7 @@ int32_t servotester_app(void* p) {
     // Timer for automatic mode
     FuriTimer* timer =
         furi_timer_alloc(servotester_timer_callback, FuriTimerTypePeriodic, event_queue);
-    furi_timer_start(timer, 5);
+    furi_timer_start(timer, furi_ms_to_ticks((1000/DEFAULT_FREQ)*1.5));  // does not make sense update PWM faster than pulse interval lenght. 
 
     //GPIO init
     furi_hal_power_enable_otg(); // Turn 5V
