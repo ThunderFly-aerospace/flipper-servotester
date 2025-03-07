@@ -54,7 +54,7 @@ static void servotester_draw_callback(Canvas* canvas, void* ctx) {
     canvas_set_font(canvas, FontPrimary);
 
     canvas_draw_frame(canvas, 0, 0, 128, 64);
-    canvas_draw_str(canvas, 35, 10, "Servo tester");
+    canvas_draw_str(canvas, 19, 10, "Pin A7 pulse width");
     canvas_draw_line(canvas, 14, 30, 114, 30);
     canvas_draw_line(canvas, 14, 30, 14, 20);
     canvas_draw_line(canvas, 114, 30, 114, 20);
