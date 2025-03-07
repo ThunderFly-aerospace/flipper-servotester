@@ -13,7 +13,7 @@ jobs:
         with:
           # Set to 'release' to build for latest published release version
           sdk-channel: release
-          app-dir: servotester
+          app-dir: /servotester
       - name: Upload app artifacts
         uses: actions/upload-artifact@v4
         with:
